@@ -61,5 +61,5 @@ Rails.application.configure do
 
   #Devise Gem config
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
-
+  config.secret_key = '0a8093ba7030519af61daa1cbaa5b93dd0899574036271825c20b47610d115608b0bc4ae72f3bdd89014c48e2aa3be8d523eb79a8f39f819402bd1e72cc6f25d'
 end
